@@ -59,6 +59,18 @@ def soft_targets(anns, key2idx):
     return out
 
 
+class ImageDataset(torch.utils.data.Dataset):
+    def __init__(self, image_ids, split_dir):
+        self.image_ids = image_ids
+        self.split_dir = split_dir
+
+    def __len__(self):
+        return len(self.image_ids)
+
+    def __getitem__(self, i):
+        return load_image(self.split_dir / "images" / f"{self.image_ids[i]}.jpg")
+
+
 @torch.no_grad()
 def extract_features(backbone, split, image_ids, device, bs=256):
     path = FEAT_DIR / f"{split}_mbv3_small_grid.pt"
@@ -70,11 +82,8 @@ def extract_features(backbone, split, image_ids, device, bs=256):
     t0 = time.time()
     feats = torch.empty(len(image_ids), 49, 576, dtype=torch.float16)
 
-    class DS(torch.utils.data.Dataset):
-        def __len__(self): return len(image_ids)
-        def __getitem__(self, i): return load_image(PROC / split / "images" / f"{image_ids[i]}.jpg")
-
-    dl = torch.utils.data.DataLoader(DS(), batch_size=bs, num_workers=min(4, os.cpu_count() or 1))
+    ds = ImageDataset(image_ids, PROC / split)
+    dl = torch.utils.data.DataLoader(ds, batch_size=bs, num_workers=0)
     i = 0
     for x in dl:
         f = backbone(x.to(device))

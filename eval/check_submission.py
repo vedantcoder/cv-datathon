@@ -86,7 +86,11 @@ def main(argv=None):
             qs = random.Random(0).sample(qs, args.n_val)
         inp.mkdir()
         (inp / "questions.json").write_text(json.dumps(qs))
-        os.symlink(val_dir / "images", inp / "images")
+        try:
+            os.symlink(val_dir / "images", inp / "images", target_is_directory=True)
+        except OSError:
+            import _winapi
+            _winapi.CreateJunction(str(val_dir / "images"), str(inp / "images"))
 
         env = dict(os.environ, CUDA_VISIBLE_DEVICES="", VQA_DT_VERBOSE="1",
                    OMP_NUM_THREADS=str(args.threads), MKL_NUM_THREADS=str(args.threads),
