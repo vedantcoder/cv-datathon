@@ -1,0 +1,30 @@
+# Large binaries and archives
+*.zip
+*.tar
+*.gz
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Datasets and processed data
+data/
+*/data/
+processed/
+*/processed/
+features/
+*/features/
+checkpoints/
+*/checkpoints/
+preds/
+*/preds/
+
+# Python / Colab
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+env/
+venv/

@@ -1,0 +1,29 @@
+seed: 42
+images:
+  size: 224
+  jpeg_quality: 90
+vocab:
+  size: 1000
+complexity:
+  batch_size: 1
+  dummy_image:
+    fill: 0.5
+    shape:
+    - 1
+    - 3
+    - 224
+    - 224
+  dummy_question: what color is the shirt of the man on the left?
+score:
+  alpha: 2.0
+  beta: 2.0
+  P_ref: 18154866
+  F_ref: 3688267776
+paths:
+  processed: data/processed
+  logs: logs
+  answers: data/processed/answers.txt
+codabench:
+  execution_time_limit: 7200
+  baseline_runtime_sec: 395
+  max_checkpoint_mb: 500
