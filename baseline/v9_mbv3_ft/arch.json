@@ -1,0 +1,10 @@
+{
+  "res": 160,
+  "grid_hw": 5,
+  "emb_rank": 64,
+  "q_dim": 192,
+  "att_dim": 192,
+  "hid": 256,
+  "cls_hid": 384,
+  "drop": 0.3
+}
