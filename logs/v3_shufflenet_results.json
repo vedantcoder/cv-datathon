@@ -1,0 +1,581 @@
+{
+  "best_val_cached": 45.5,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 70.1808,
+      "val": 30.05,
+      "val_types": {
+        "number": 25.65,
+        "other": 5.54,
+        "yes/no": 63.57
+      },
+      "source": "raw",
+      "sec": 66.2
+    },
+    {
+      "epoch": 2,
+      "loss": 5.5783,
+      "val": 30.96,
+      "val_types": {
+        "number": 26.52,
+        "other": 7.06,
+        "yes/no": 63.69
+      },
+      "source": "raw",
+      "sec": 73.4
+    },
+    {
+      "epoch": 3,
+      "loss": 4.9319,
+      "val": 33.7,
+      "val_types": {
+        "number": 26.13,
+        "other": 12.92,
+        "yes/no": 63.5
+      },
+      "source": "raw",
+      "sec": 134.9
+    },
+    {
+      "epoch": 4,
+      "loss": 4.4333,
+      "val": 35.78,
+      "val_types": {
+        "number": 27.48,
+        "other": 16.76,
+        "yes/no": 63.53
+      },
+      "source": "raw",
+      "sec": 68.7
+    },
+    {
+      "epoch": 5,
+      "loss": 4.1712,
+      "val": 37.99,
+      "val_types": {
+        "number": 26.72,
+        "other": 21.24,
+        "yes/no": 63.88
+      },
+      "source": "raw",
+      "sec": 87.1
+    },
+    {
+      "epoch": 6,
+      "loss": 4.1934,
+      "val": 40.32,
+      "val_types": {
+        "number": 28.79,
+        "other": 23.75,
+        "yes/no": 66.05
+      },
+      "source": "EMA",
+      "sec": 34.6
+    },
+    {
+      "epoch": 7,
+      "loss": 3.8316,
+      "val": 41.85,
+      "val_types": {
+        "number": 29.27,
+        "other": 26.23,
+        "yes/no": 66.74
+      },
+      "source": "EMA",
+      "sec": 67.2
+    },
+    {
+      "epoch": 8,
+      "loss": 3.694,
+      "val": 43.06,
+      "val_types": {
+        "number": 29.77,
+        "other": 28.33,
+        "yes/no": 67.03
+      },
+      "source": "EMA",
+      "sec": 95.3
+    },
+    {
+      "epoch": 9,
+      "loss": 3.5839,
+      "val": 43.82,
+      "val_types": {
+        "number": 29.84,
+        "other": 29.82,
+        "yes/no": 67.08
+      },
+      "source": "EMA",
+      "sec": 102.5
+    },
+    {
+      "epoch": 10,
+      "loss": 3.4964,
+      "val": 44.27,
+      "val_types": {
+        "number": 29.7,
+        "other": 30.87,
+        "yes/no": 66.96
+      },
+      "source": "EMA",
+      "sec": 92.9
+    },
+    {
+      "epoch": 11,
+      "loss": 3.4131,
+      "val": 44.49,
+      "val_types": {
+        "number": 29.83,
+        "other": 31.34,
+        "yes/no": 66.9
+      },
+      "source": "EMA",
+      "sec": 40.5
+    },
+    {
+      "epoch": 12,
+      "loss": 3.3436,
+      "val": 44.99,
+      "val_types": {
+        "number": 30.08,
+        "other": 31.89,
+        "yes/no": 67.42
+      },
+      "source": "EMA",
+      "sec": 48.3
+    },
+    {
+      "epoch": 13,
+      "loss": 3.2775,
+      "val": 45.26,
+      "val_types": {
+        "number": 29.71,
+        "other": 32.22,
+        "yes/no": 67.85
+      },
+      "source": "EMA",
+      "sec": 49.2
+    },
+    {
+      "epoch": 14,
+      "loss": 3.2112,
+      "val": 45.36,
+      "val_types": {
+        "number": 30.43,
+        "other": 32.28,
+        "yes/no": 67.78
+      },
+      "source": "EMA",
+      "sec": 88.5
+    },
+    {
+      "epoch": 15,
+      "loss": 3.1578,
+      "val": 45.19,
+      "val_types": {
+        "number": 30.84,
+        "other": 32.16,
+        "yes/no": 67.32
+      },
+      "source": "EMA",
+      "sec": 90.6
+    },
+    {
+      "epoch": 16,
+      "loss": 3.097,
+      "val": 45.04,
+      "val_types": {
+        "number": 30.7,
+        "other": 31.83,
+        "yes/no": 67.42
+      },
+      "source": "EMA",
+      "sec": 50.4
+    },
+    {
+      "epoch": 17,
+      "loss": 3.0466,
+      "val": 45.17,
+      "val_types": {
+        "number": 30.72,
+        "other": 32.3,
+        "yes/no": 67.15
+      },
+      "source": "EMA",
+      "sec": 53.9
+    },
+    {
+      "epoch": 18,
+      "loss": 2.998,
+      "val": 45.1,
+      "val_types": {
+        "number": 30.65,
+        "other": 32.07,
+        "yes/no": 67.28
+      },
+      "source": "EMA",
+      "sec": 62.2
+    },
+    {
+      "epoch": 19,
+      "loss": 2.9509,
+      "val": 45.06,
+      "val_types": {
+        "number": 30.1,
+        "other": 32.08,
+        "yes/no": 67.34
+      },
+      "source": "EMA",
+      "sec": 66.7
+    },
+    {
+      "epoch": 20,
+      "loss": 2.8991,
+      "val": 45.19,
+      "val_types": {
+        "number": 29.89,
+        "other": 32.3,
+        "yes/no": 67.48
+      },
+      "source": "EMA",
+      "sec": 72.7
+    },
+    {
+      "epoch": 21,
+      "loss": 2.8638,
+      "val": 45.5,
+      "val_types": {
+        "number": 30.21,
+        "other": 32.37,
+        "yes/no": 68.11
+      },
+      "source": "EMA",
+      "sec": 56.2
+    },
+    {
+      "epoch": 22,
+      "loss": 2.8222,
+      "val": 45.2,
+      "val_types": {
+        "number": 30.11,
+        "other": 32.23,
+        "yes/no": 67.54
+      },
+      "source": "EMA",
+      "sec": 55.4
+    },
+    {
+      "epoch": 23,
+      "loss": 2.7715,
+      "val": 45.15,
+      "val_types": {
+        "number": 30.34,
+        "other": 32.12,
+        "yes/no": 67.45
+      },
+      "source": "EMA",
+      "sec": 65.0
+    },
+    {
+      "epoch": 24,
+      "loss": 2.7347,
+      "val": 45.07,
+      "val_types": {
+        "number": 30.63,
+        "other": 32.08,
+        "yes/no": 67.18
+      },
+      "source": "EMA",
+      "sec": 85.3
+    },
+    {
+      "epoch": 25,
+      "loss": 2.6869,
+      "val": 45.1,
+      "val_types": {
+        "number": 30.63,
+        "other": 32.15,
+        "yes/no": 67.19
+      },
+      "source": "EMA",
+      "sec": 58.9
+    },
+    {
+      "epoch": 26,
+      "loss": 2.6446,
+      "val": 45.37,
+      "val_types": {
+        "number": 30.73,
+        "other": 32.55,
+        "yes/no": 67.36
+      },
+      "source": "EMA",
+      "sec": 101.7
+    },
+    {
+      "epoch": 27,
+      "loss": 2.6064,
+      "val": 45.43,
+      "val_types": {
+        "number": 31.21,
+        "other": 32.58,
+        "yes/no": 67.28
+      },
+      "source": "EMA",
+      "sec": 73.1
+    },
+    {
+      "epoch": 28,
+      "loss": 2.5699,
+      "val": 45.28,
+      "val_types": {
+        "number": 30.83,
+        "other": 32.56,
+        "yes/no": 67.05
+      },
+      "source": "EMA",
+      "sec": 79.8
+    },
+    {
+      "epoch": 29,
+      "loss": 2.5312,
+      "val": 45.09,
+      "val_types": {
+        "number": 30.73,
+        "other": 32.49,
+        "yes/no": 66.68
+      },
+      "source": "EMA",
+      "sec": 106.0
+    },
+    {
+      "epoch": 30,
+      "loss": 2.4948,
+      "val": 45.13,
+      "val_types": {
+        "number": 30.9,
+        "other": 32.38,
+        "yes/no": 66.86
+      },
+      "source": "EMA",
+      "sec": 72.5
+    },
+    {
+      "epoch": 31,
+      "loss": 2.4683,
+      "val": 45.04,
+      "val_types": {
+        "number": 30.8,
+        "other": 32.29,
+        "yes/no": 66.79
+      },
+      "source": "EMA",
+      "sec": 91.2
+    },
+    {
+      "epoch": 32,
+      "loss": 2.434,
+      "val": 44.92,
+      "val_types": {
+        "number": 30.94,
+        "other": 32.21,
+        "yes/no": 66.5
+      },
+      "source": "EMA",
+      "sec": 83.5
+    },
+    {
+      "epoch": 33,
+      "loss": 2.4102,
+      "val": 44.86,
+      "val_types": {
+        "number": 30.45,
+        "other": 32.19,
+        "yes/no": 66.56
+      },
+      "source": "EMA",
+      "sec": 52.5
+    },
+    {
+      "epoch": 34,
+      "loss": 2.3821,
+      "val": 45.16,
+      "val_types": {
+        "number": 30.37,
+        "other": 32.3,
+        "yes/no": 67.25
+      },
+      "source": "raw",
+      "sec": 59.9
+    },
+    {
+      "epoch": 35,
+      "loss": 2.359,
+      "val": 44.95,
+      "val_types": {
+        "number": 31.05,
+        "other": 32.32,
+        "yes/no": 66.4
+      },
+      "source": "EMA",
+      "sec": 59.9
+    },
+    {
+      "epoch": 36,
+      "loss": 2.3299,
+      "val": 45.23,
+      "val_types": {
+        "number": 30.18,
+        "other": 32.22,
+        "yes/no": 67.59
+      },
+      "source": "raw",
+      "sec": 80.1
+    },
+    {
+      "epoch": 37,
+      "loss": 2.3204,
+      "val": 45.06,
+      "val_types": {
+        "number": 30.82,
+        "other": 32.33,
+        "yes/no": 66.76
+      },
+      "source": "EMA",
+      "sec": 90.1
+    },
+    {
+      "epoch": 38,
+      "loss": 2.2934,
+      "val": 45.1,
+      "val_types": {
+        "number": 31.14,
+        "other": 32.34,
+        "yes/no": 66.76
+      },
+      "source": "EMA",
+      "sec": 85.0
+    },
+    {
+      "epoch": 39,
+      "loss": 2.2789,
+      "val": 45.22,
+      "val_types": {
+        "number": 31.19,
+        "other": 32.18,
+        "yes/no": 67.28
+      },
+      "source": "raw",
+      "sec": 70.6
+    },
+    {
+      "epoch": 40,
+      "loss": 2.269,
+      "val": 45.05,
+      "val_types": {
+        "number": 31.54,
+        "other": 32.11,
+        "yes/no": 66.78
+      },
+      "source": "EMA",
+      "sec": 78.2
+    },
+    {
+      "epoch": 41,
+      "loss": 2.2565,
+      "val": 45.02,
+      "val_types": {
+        "number": 31.02,
+        "other": 32.1,
+        "yes/no": 66.88
+      },
+      "source": "raw",
+      "sec": 84.6
+    },
+    {
+      "epoch": 42,
+      "loss": 2.2442,
+      "val": 45.03,
+      "val_types": {
+        "number": 31.51,
+        "other": 32.01,
+        "yes/no": 66.85
+      },
+      "source": "EMA",
+      "sec": 687.1
+    },
+    {
+      "epoch": 43,
+      "loss": 2.2501,
+      "val": 45.07,
+      "val_types": {
+        "number": 31.63,
+        "other": 32.06,
+        "yes/no": 66.87
+      },
+      "source": "EMA",
+      "sec": 16.1
+    },
+    {
+      "epoch": 44,
+      "loss": 2.2367,
+      "val": 45.07,
+      "val_types": {
+        "number": 31.62,
+        "other": 32.04,
+        "yes/no": 66.89
+      },
+      "source": "EMA",
+      "sec": 10.8
+    },
+    {
+      "epoch": 45,
+      "loss": 2.2369,
+      "val": 45.09,
+      "val_types": {
+        "number": 31.55,
+        "other": 32.07,
+        "yes/no": 66.94
+      },
+      "source": "EMA",
+      "sec": 10.3
+    }
+  ],
+  "feature_extraction_sec": 228.9,
+  "mean_epoch_sec": 83.55,
+  "args": {
+    "epochs": 45,
+    "batch_size": 128,
+    "lr": 0.002,
+    "seed": 42,
+    "clip": 1.0,
+    "tag": ""
+  },
+  "val": {
+    "overall": 45.5,
+    "perAnswerType": {
+      "number": 30.21,
+      "other": 32.35,
+      "yes/no": 68.13
+    },
+    "n_questions": 10388,
+    "n_predicted": 10388,
+    "n_missing": 0,
+    "inference_sec_gpu": 40.1
+  },
+  "complexity": {
+    "params": 2215946,
+    "flops": 69861576,
+    "checkpoint_sha256": "60dffbbf49300678dc5ebb7c3cd574bd9ee7ad7832fe917d12f81c4c7dd87ea8",
+    "torch_version": "2.14.1+cu126"
+  },
+  "composite": {
+    "accuracy": 45.5,
+    "params": 2215946,
+    "flops": 69861576,
+    "param_penalty": -6.0687,
+    "flop_penalty": -11.4446,
+    "score": 63.0133
+  }
+}

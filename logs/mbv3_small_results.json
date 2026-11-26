@@ -1,0 +1,537 @@
+{
+  "best_val_cached": 46.44,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 88.9467,
+      "val": 24.24,
+      "val_types": {
+        "number": 0.26,
+        "other": 0.56,
+        "yes/no": 63.72
+      },
+      "sec": 51.7
+    },
+    {
+      "epoch": 2,
+      "loss": 6.0696,
+      "val": 31.43,
+      "val_types": {
+        "number": 27.41,
+        "other": 7.19,
+        "yes/no": 64.45
+      },
+      "sec": 57.1
+    },
+    {
+      "epoch": 3,
+      "loss": 5.2075,
+      "val": 34.55,
+      "val_types": {
+        "number": 26.52,
+        "other": 14.19,
+        "yes/no": 63.95
+      },
+      "sec": 41.5
+    },
+    {
+      "epoch": 4,
+      "loss": 4.6193,
+      "val": 36.99,
+      "val_types": {
+        "number": 28.26,
+        "other": 18.89,
+        "yes/no": 63.71
+      },
+      "sec": 35.2
+    },
+    {
+      "epoch": 5,
+      "loss": 4.1698,
+      "val": 40.4,
+      "val_types": {
+        "number": 28.27,
+        "other": 23.81,
+        "yes/no": 66.38
+      },
+      "sec": 34.1
+    },
+    {
+      "epoch": 6,
+      "loss": 3.8676,
+      "val": 41.45,
+      "val_types": {
+        "number": 25.73,
+        "other": 26.55,
+        "yes/no": 66.52
+      },
+      "sec": 36.4
+    },
+    {
+      "epoch": 7,
+      "loss": 3.6555,
+      "val": 42.82,
+      "val_types": {
+        "number": 29.32,
+        "other": 29.25,
+        "yes/no": 65.35
+      },
+      "sec": 39.0
+    },
+    {
+      "epoch": 8,
+      "loss": 3.4798,
+      "val": 44.93,
+      "val_types": {
+        "number": 29.56,
+        "other": 31.84,
+        "yes/no": 67.53
+      },
+      "sec": 34.1
+    },
+    {
+      "epoch": 9,
+      "loss": 3.3369,
+      "val": 45.35,
+      "val_types": {
+        "number": 29.56,
+        "other": 32.41,
+        "yes/no": 67.89
+      },
+      "sec": 37.0
+    },
+    {
+      "epoch": 10,
+      "loss": 3.2189,
+      "val": 45.65,
+      "val_types": {
+        "number": 29.87,
+        "other": 32.76,
+        "yes/no": 68.12
+      },
+      "sec": 40.6
+    },
+    {
+      "epoch": 11,
+      "loss": 3.1048,
+      "val": 46.0,
+      "val_types": {
+        "number": 29.57,
+        "other": 33.51,
+        "yes/no": 68.19
+      },
+      "sec": 37.1
+    },
+    {
+      "epoch": 12,
+      "loss": 3.0078,
+      "val": 45.8,
+      "val_types": {
+        "number": 30.25,
+        "other": 33.06,
+        "yes/no": 68.01
+      },
+      "sec": 42.0
+    },
+    {
+      "epoch": 13,
+      "loss": 2.9101,
+      "val": 45.77,
+      "val_types": {
+        "number": 30.14,
+        "other": 33.73,
+        "yes/no": 67.1
+      },
+      "sec": 38.4
+    },
+    {
+      "epoch": 14,
+      "loss": 2.8209,
+      "val": 46.42,
+      "val_types": {
+        "number": 30.57,
+        "other": 34.46,
+        "yes/no": 67.72
+      },
+      "sec": 41.6
+    },
+    {
+      "epoch": 15,
+      "loss": 2.734,
+      "val": 46.29,
+      "val_types": {
+        "number": 28.37,
+        "other": 34.7,
+        "yes/no": 67.85
+      },
+      "sec": 41.9
+    },
+    {
+      "epoch": 16,
+      "loss": 2.6472,
+      "val": 46.4,
+      "val_types": {
+        "number": 31.18,
+        "other": 34.53,
+        "yes/no": 67.34
+      },
+      "sec": 40.9
+    },
+    {
+      "epoch": 17,
+      "loss": 2.5607,
+      "val": 46.33,
+      "val_types": {
+        "number": 28.3,
+        "other": 34.27,
+        "yes/no": 68.55
+      },
+      "sec": 37.4
+    },
+    {
+      "epoch": 18,
+      "loss": 2.4814,
+      "val": 46.42,
+      "val_types": {
+        "number": 29.5,
+        "other": 34.59,
+        "yes/no": 67.91
+      },
+      "sec": 41.8
+    },
+    {
+      "epoch": 19,
+      "loss": 2.4025,
+      "val": 46.36,
+      "val_types": {
+        "number": 29.34,
+        "other": 34.15,
+        "yes/no": 68.39
+      },
+      "sec": 41.9
+    },
+    {
+      "epoch": 20,
+      "loss": 2.3261,
+      "val": 46.21,
+      "val_types": {
+        "number": 30.01,
+        "other": 34.42,
+        "yes/no": 67.42
+      },
+      "sec": 45.3
+    },
+    {
+      "epoch": 21,
+      "loss": 2.2552,
+      "val": 46.32,
+      "val_types": {
+        "number": 29.45,
+        "other": 34.45,
+        "yes/no": 67.87
+      },
+      "sec": 39.1
+    },
+    {
+      "epoch": 22,
+      "loss": 2.188,
+      "val": 46.24,
+      "val_types": {
+        "number": 29.13,
+        "other": 33.92,
+        "yes/no": 68.45
+      },
+      "sec": 41.1
+    },
+    {
+      "epoch": 23,
+      "loss": 2.122,
+      "val": 46.04,
+      "val_types": {
+        "number": 28.07,
+        "other": 34.23,
+        "yes/no": 67.92
+      },
+      "sec": 52.3
+    },
+    {
+      "epoch": 24,
+      "loss": 2.064,
+      "val": 45.95,
+      "val_types": {
+        "number": 27.73,
+        "other": 34.02,
+        "yes/no": 68.06
+      },
+      "sec": 56.6
+    },
+    {
+      "epoch": 25,
+      "loss": 2.0039,
+      "val": 46.25,
+      "val_types": {
+        "number": 28.05,
+        "other": 34.64,
+        "yes/no": 67.93
+      },
+      "sec": 50.7
+    },
+    {
+      "epoch": 26,
+      "loss": 1.9564,
+      "val": 46.44,
+      "val_types": {
+        "number": 30.04,
+        "other": 34.15,
+        "yes/no": 68.34
+      },
+      "sec": 36.7
+    },
+    {
+      "epoch": 27,
+      "loss": 1.9045,
+      "val": 46.18,
+      "val_types": {
+        "number": 28.59,
+        "other": 34.2,
+        "yes/no": 68.14
+      },
+      "sec": 37.0
+    },
+    {
+      "epoch": 28,
+      "loss": 1.8576,
+      "val": 45.84,
+      "val_types": {
+        "number": 27.76,
+        "other": 33.53,
+        "yes/no": 68.39
+      },
+      "sec": 32.8
+    },
+    {
+      "epoch": 29,
+      "loss": 1.8192,
+      "val": 46.04,
+      "val_types": {
+        "number": 28.39,
+        "other": 33.9,
+        "yes/no": 68.22
+      },
+      "sec": 33.6
+    },
+    {
+      "epoch": 30,
+      "loss": 1.7782,
+      "val": 46.22,
+      "val_types": {
+        "number": 28.13,
+        "other": 34.04,
+        "yes/no": 68.61
+      },
+      "sec": 33.3
+    },
+    {
+      "epoch": 31,
+      "loss": 1.7351,
+      "val": 45.63,
+      "val_types": {
+        "number": 27.87,
+        "other": 33.29,
+        "yes/no": 68.1
+      },
+      "sec": 32.9
+    },
+    {
+      "epoch": 32,
+      "loss": 1.7093,
+      "val": 45.55,
+      "val_types": {
+        "number": 27.73,
+        "other": 33.39,
+        "yes/no": 67.82
+      },
+      "sec": 33.2
+    },
+    {
+      "epoch": 33,
+      "loss": 1.6743,
+      "val": 45.78,
+      "val_types": {
+        "number": 27.68,
+        "other": 33.49,
+        "yes/no": 68.31
+      },
+      "sec": 33.5
+    },
+    {
+      "epoch": 34,
+      "loss": 1.6516,
+      "val": 45.98,
+      "val_types": {
+        "number": 29.02,
+        "other": 33.34,
+        "yes/no": 68.57
+      },
+      "sec": 44.5
+    },
+    {
+      "epoch": 35,
+      "loss": 1.6284,
+      "val": 45.84,
+      "val_types": {
+        "number": 28.66,
+        "other": 33.59,
+        "yes/no": 67.99
+      },
+      "sec": 42.7
+    },
+    {
+      "epoch": 36,
+      "loss": 1.6095,
+      "val": 45.88,
+      "val_types": {
+        "number": 28.49,
+        "other": 33.64,
+        "yes/no": 68.1
+      },
+      "sec": 34.1
+    },
+    {
+      "epoch": 37,
+      "loss": 1.5872,
+      "val": 46.21,
+      "val_types": {
+        "number": 28.5,
+        "other": 33.91,
+        "yes/no": 68.61
+      },
+      "sec": 32.1
+    },
+    {
+      "epoch": 38,
+      "loss": 1.574,
+      "val": 45.88,
+      "val_types": {
+        "number": 28.66,
+        "other": 33.4,
+        "yes/no": 68.34
+      },
+      "sec": 42.7
+    },
+    {
+      "epoch": 39,
+      "loss": 1.5623,
+      "val": 45.88,
+      "val_types": {
+        "number": 28.49,
+        "other": 33.39,
+        "yes/no": 68.43
+      },
+      "sec": 36.3
+    },
+    {
+      "epoch": 40,
+      "loss": 1.5557,
+      "val": 46.01,
+      "val_types": {
+        "number": 28.5,
+        "other": 33.61,
+        "yes/no": 68.48
+      },
+      "sec": 34.6
+    },
+    {
+      "epoch": 41,
+      "loss": 1.5444,
+      "val": 45.86,
+      "val_types": {
+        "number": 28.26,
+        "other": 33.47,
+        "yes/no": 68.33
+      },
+      "sec": 35.9
+    },
+    {
+      "epoch": 42,
+      "loss": 1.5426,
+      "val": 45.9,
+      "val_types": {
+        "number": 28.33,
+        "other": 33.45,
+        "yes/no": 68.45
+      },
+      "sec": 35.3
+    },
+    {
+      "epoch": 43,
+      "loss": 1.5299,
+      "val": 45.97,
+      "val_types": {
+        "number": 28.65,
+        "other": 33.46,
+        "yes/no": 68.52
+      },
+      "sec": 34.3
+    },
+    {
+      "epoch": 44,
+      "loss": 1.5346,
+      "val": 45.93,
+      "val_types": {
+        "number": 28.35,
+        "other": 33.51,
+        "yes/no": 68.44
+      },
+      "sec": 33.9
+    },
+    {
+      "epoch": 45,
+      "loss": 1.5322,
+      "val": 45.97,
+      "val_types": {
+        "number": 28.49,
+        "other": 33.55,
+        "yes/no": 68.44
+      },
+      "sec": 33.9
+    }
+  ],
+  "feature_extraction_sec": 728.1,
+  "mean_epoch_sec": 39.29,
+  "args": {
+    "epochs": 45,
+    "batch_size": 128,
+    "lr": 0.002,
+    "seed": 42,
+    "clip": 1.0,
+    "dropout": 0.3,
+    "tag": ""
+  },
+  "val": {
+    "overall": 46.42,
+    "perAnswerType": {
+      "number": 30.04,
+      "other": 34.1,
+      "yes/no": 68.37
+    },
+    "n_questions": 10388,
+    "n_predicted": 10388,
+    "n_missing": 0,
+    "inference_sec_gpu": 125.9
+  },
+  "complexity": {
+    "params": 4358922,
+    "flops": 136178816,
+    "checkpoint_sha256": "153eac6077ea448bc9890c8388bb3d4cfa200e56242a229abd928fdaa33c276b",
+    "torch_version": "2.14.1+cu126"
+  },
+  "composite": {
+    "accuracy": 46.42,
+    "params": 4358922,
+    "flops": 136178816,
+    "param_penalty": -4.1166,
+    "flop_penalty": -9.5187,
+    "score": 60.0554
+  }
+}

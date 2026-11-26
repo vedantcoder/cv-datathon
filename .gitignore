@@ -19,6 +19,7 @@ checkpoints/
 */checkpoints/
 preds/
 */preds/
+student_package/
 
 # Python / Colab
 __pycache__/
