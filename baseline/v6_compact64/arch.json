@@ -1,0 +1,9 @@
+{
+  "res": 64,
+  "n_tokens": 4,
+  "emb_rank": 24,
+  "q_dim": 88,
+  "hid": 128,
+  "cls_rank": 104,
+  "drop": 0.25
+}

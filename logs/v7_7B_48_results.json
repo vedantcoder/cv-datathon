@@ -1,0 +1,318 @@
+{
+  "arch": {
+    "res": 48,
+    "stage": 4,
+    "adapter": false,
+    "n_tokens": 4,
+    "v_dim": 96,
+    "emb_rank": 20,
+    "q_dim": 80,
+    "hid": 120,
+    "cls_rank": 96,
+    "drop": 0.25
+  },
+  "best_val_fast": 41.35,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 4.1241,
+      "val_raw": 39.27,
+      "val_ema": 39.66,
+      "val": 39.66,
+      "source": "EMA",
+      "sec": 8.1
+    },
+    {
+      "epoch": 2,
+      "loss": 4.1052,
+      "val_raw": 38.95,
+      "val_ema": 39.74,
+      "val": 39.74,
+      "source": "EMA",
+      "sec": 26.2
+    },
+    {
+      "epoch": 3,
+      "loss": 4.1363,
+      "val_raw": 39.39,
+      "val_ema": 40.14,
+      "val": 40.14,
+      "source": "EMA",
+      "sec": 26.3
+    },
+    {
+      "epoch": 4,
+      "loss": 4.1126,
+      "val_raw": 39.12,
+      "val_ema": 39.98,
+      "val": 39.98,
+      "source": "EMA",
+      "sec": 25.4
+    },
+    {
+      "epoch": 5,
+      "loss": 4.0929,
+      "val_raw": 39.4,
+      "val_ema": 39.98,
+      "val": 39.98,
+      "source": "EMA",
+      "sec": 22.2
+    },
+    {
+      "epoch": 6,
+      "loss": 4.066,
+      "val_raw": 38.89,
+      "val_ema": 40.13,
+      "val": 40.13,
+      "source": "EMA",
+      "sec": 26.3
+    },
+    {
+      "epoch": 7,
+      "loss": 4.0385,
+      "val_raw": 39.9,
+      "val_ema": 40.04,
+      "val": 40.04,
+      "source": "EMA",
+      "sec": 26.1
+    },
+    {
+      "epoch": 8,
+      "loss": 4.013,
+      "val_raw": 39.77,
+      "val_ema": 40.15,
+      "val": 40.15,
+      "source": "EMA",
+      "sec": 26.4
+    },
+    {
+      "epoch": 9,
+      "loss": 3.9839,
+      "val_raw": 40.44,
+      "val_ema": 40.32,
+      "val": 40.44,
+      "source": "raw",
+      "sec": 26.3
+    },
+    {
+      "epoch": 10,
+      "loss": 3.9645,
+      "val_raw": 39.5,
+      "val_ema": 40.75,
+      "val": 40.75,
+      "source": "EMA",
+      "sec": 25.8
+    },
+    {
+      "epoch": 11,
+      "loss": 3.9374,
+      "val_raw": 39.98,
+      "val_ema": 40.65,
+      "val": 40.65,
+      "source": "EMA",
+      "sec": 10.3
+    },
+    {
+      "epoch": 12,
+      "loss": 3.9228,
+      "val_raw": 40.1,
+      "val_ema": 40.45,
+      "val": 40.45,
+      "source": "EMA",
+      "sec": 22.6
+    },
+    {
+      "epoch": 13,
+      "loss": 3.8956,
+      "val_raw": 40.44,
+      "val_ema": 40.68,
+      "val": 40.68,
+      "source": "EMA",
+      "sec": 32.1
+    },
+    {
+      "epoch": 14,
+      "loss": 3.8647,
+      "val_raw": 40.44,
+      "val_ema": 40.82,
+      "val": 40.82,
+      "source": "EMA",
+      "sec": 32.5
+    },
+    {
+      "epoch": 15,
+      "loss": 3.8385,
+      "val_raw": 40.9,
+      "val_ema": 41.07,
+      "val": 41.07,
+      "source": "EMA",
+      "sec": 32.7
+    },
+    {
+      "epoch": 16,
+      "loss": 3.8203,
+      "val_raw": 40.66,
+      "val_ema": 41.15,
+      "val": 41.15,
+      "source": "EMA",
+      "sec": 34.8
+    },
+    {
+      "epoch": 17,
+      "loss": 3.7915,
+      "val_raw": 40.66,
+      "val_ema": 41.11,
+      "val": 41.11,
+      "source": "EMA",
+      "sec": 34.1
+    },
+    {
+      "epoch": 18,
+      "loss": 3.7702,
+      "val_raw": 40.74,
+      "val_ema": 41.27,
+      "val": 41.27,
+      "source": "EMA",
+      "sec": 30.9
+    },
+    {
+      "epoch": 19,
+      "loss": 3.7469,
+      "val_raw": 41.13,
+      "val_ema": 40.91,
+      "val": 41.13,
+      "source": "raw",
+      "sec": 32.8
+    },
+    {
+      "epoch": 20,
+      "loss": 3.7267,
+      "val_raw": 41.35,
+      "val_ema": 41.11,
+      "val": 41.35,
+      "source": "raw",
+      "sec": 33.3
+    },
+    {
+      "epoch": 21,
+      "loss": 3.7176,
+      "val_raw": 40.67,
+      "val_ema": 41.23,
+      "val": 41.23,
+      "source": "EMA",
+      "sec": 32.5
+    },
+    {
+      "epoch": 22,
+      "loss": 3.6981,
+      "val_raw": 40.97,
+      "val_ema": 41.17,
+      "val": 41.17,
+      "source": "EMA",
+      "sec": 32.7
+    },
+    {
+      "epoch": 23,
+      "loss": 3.6788,
+      "val_raw": 40.99,
+      "val_ema": 41.05,
+      "val": 41.05,
+      "source": "EMA",
+      "sec": 32.6
+    },
+    {
+      "epoch": 24,
+      "loss": 3.6664,
+      "val_raw": 41.07,
+      "val_ema": 41.13,
+      "val": 41.13,
+      "source": "EMA",
+      "sec": 36.1
+    },
+    {
+      "epoch": 25,
+      "loss": 3.6568,
+      "val_raw": 41.11,
+      "val_ema": 40.96,
+      "val": 41.11,
+      "source": "raw",
+      "sec": 36.6
+    },
+    {
+      "epoch": 26,
+      "loss": 3.6507,
+      "val_raw": 41.07,
+      "val_ema": 41.13,
+      "val": 41.13,
+      "source": "EMA",
+      "sec": 33.7
+    },
+    {
+      "epoch": 27,
+      "loss": 3.6484,
+      "val_raw": 41.03,
+      "val_ema": 41.1,
+      "val": 41.1,
+      "source": "EMA",
+      "sec": 33.3
+    },
+    {
+      "epoch": 28,
+      "loss": 3.638,
+      "val_raw": 40.98,
+      "val_ema": 41.12,
+      "val": 41.12,
+      "source": "EMA",
+      "sec": 32.5
+    }
+  ],
+  "mean_epoch_sec": 28.75,
+  "args": {
+    "res": 48,
+    "stage": 4,
+    "adapter": false,
+    "min_count": 5,
+    "v_dim": 96,
+    "emb_rank": 20,
+    "q_dim": 80,
+    "hid": 120,
+    "cls_rank": 96,
+    "drop": 0.25,
+    "epochs_warm": 20,
+    "epochs_ft": 28,
+    "batch_size": 512,
+    "img_batch_size": 128,
+    "lr_head": 0.004,
+    "lr_bb": 0.0009,
+    "kd_bce": 0.35,
+    "seed": 42,
+    "tag": "_7B_48"
+  },
+  "val": {
+    "overall": 41.22,
+    "perAnswerType": {
+      "number": 27.03,
+      "other": 25.35,
+      "yes/no": 67.02
+    },
+    "n_questions": 10388,
+    "n_predicted": 10388,
+    "n_missing": 0,
+    "inference_sec_gpu": 68.7
+  },
+  "complexity": {
+    "params": 477240,
+    "flops": 4006112,
+    "checkpoint_sha256": "ec95f725398c731c8c2967564f7ff973a18ecab5a5eaf9990b4ddb4b517db861",
+    "torch_version": "2.14.1+cu126"
+  },
+  "composite": {
+    "accuracy": 41.22,
+    "params": 477240,
+    "flops": 4006112,
+    "param_penalty": -10.499,
+    "flop_penalty": -19.693,
+    "score": 71.412
+  },
+  "composite_w1": 56.316
+}

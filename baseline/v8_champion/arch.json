@@ -1,0 +1,10 @@
+{
+  "res": 40,
+  "n_tokens": 4,
+  "v_dim": 80,
+  "emb_rank": 16,
+  "q_dim": 64,
+  "hid": 104,
+  "cls_rank": 72,
+  "drop": 0.22
+}

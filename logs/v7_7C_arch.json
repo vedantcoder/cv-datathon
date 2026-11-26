@@ -1,0 +1,12 @@
+{
+  "res": 64,
+  "stage": 3,
+  "adapter": true,
+  "n_tokens": 16,
+  "v_dim": 96,
+  "emb_rank": 20,
+  "q_dim": 80,
+  "hid": 120,
+  "cls_rank": 96,
+  "drop": 0.25
+}
